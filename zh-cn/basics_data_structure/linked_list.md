@@ -10,6 +10,17 @@
 
 ## 编程实现
 
+### C++
+```
+typedef struct ListNode
+{
+    ElemType val; //typedef int ElemType ; 这里假定int
+    struct ListNode * next;
+}
+
+
+```
+
 ### Python
 
 ```python
