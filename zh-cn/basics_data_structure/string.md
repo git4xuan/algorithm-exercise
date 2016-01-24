@@ -2,6 +2,26 @@
 
 String 相关的题常出现在面试题中，实际开发也经常用到，这里总结下 C++, Java, Python 中字符串常用的方法。
 
+## C++
+```C++
+string s1;
+string s2 = s1;
+string s3 = "mingxuan";
+string s4(10 , 'c');
+string s5 = string(10 , 'c');  //复制10次
+string s6 = s1 + ",  " + "world";
+s6.isalpha(c);
+
+//使用vector 类模板
+
+vector<string> v1;
+vector<string> v1{"a" , "an" , "the"};
+v1.push_back("more");
+v2.push_back(s3);  //添加一个string量
+
+```
+可直接使用标准库string，也可以使用STL的vector模板。
+
 ## Python
 
 ```python
